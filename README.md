@@ -8,7 +8,7 @@ JDK source learning notes
 
 ### 1、java.lang
 
-1) [Object](src/main/java/cn/com/kieran/java/lang/Object/Objetc.md) 1
+1) [Object](https://github.com/rambler-kieran/JDK/tree/master/src/main/java/cn/com/kieran/java/lang/Object/Objetc.md) 1
 2) String 1
 3) AbstractStringBuilder 1
 4) StringBuffer 1
