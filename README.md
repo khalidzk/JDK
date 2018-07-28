@@ -1,14 +1,17 @@
 # JDK
 JDK source learning notes
 
-## 源码阅读范围
+## 版本说明
+JDK1.8.0_171
+[源码](https://github.com/rambler-kieran/tree/master/jdk)
 
+## 源码阅读范围
 以下为整理的通常所需阅读的源码范围。 
 标题为包名，后面序号为优先级1-4，优先级递减。
 
 ### 1、java.lang
 
-1) [Object](src/main/java/cn/com/kieran/java/lang/Object/Object.md) 1
+1) [Object](https://github.com/rambler-kieran/tree/master/src/main/java/cn/com/kieran/java/lang/Object/Object.md) 1
 2) String 1
 3) AbstractStringBuilder 1
 4) StringBuffer 1
