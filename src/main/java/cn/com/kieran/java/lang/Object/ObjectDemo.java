@@ -8,19 +8,30 @@ package cn.com.kieran.java.lang.Object;
  * @since 2018-07-28 10:34
  */
 public class ObjectDemo {
-    public static void main(String[] args) {
-        Object object = new Object();
-
-        System.out.println(object.getClass());
+    public static void main(String[] args) throws Exception{
+        ObjectDemo object = new ObjectDemo();
+        Class<? extends ObjectDemo> clazz = object.getClass();
+        System.out.println(clazz);
         System.out.println(object.hashCode());
 
-        Object object1 = new Object();
-
+        ObjectDemo object1 = new ObjectDemo();
+        Class<? extends ObjectDemo> clazz1 = object.getClass();
         System.out.println();
         System.out.println("--------------");
         System.out.println();
 
-        System.out.println(object1.getClass());
+        System.out.println(clazz1);
         System.out.println(object1.hashCode());
+
+        Apple app=new Apple();
+        app.setName("红苹果");
+        Apple app1=app;
+        Apple app2= app.clone();
+        System.out.println(app);
+        System.out.println(app1);
+        System.out.println(app2);
+        System.out.println(app2.getName());
     }
 }
+
+
