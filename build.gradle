@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'cn.com.kieran.jdk'
+group 'cn.com.kieran.java'
 version '1.0.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
