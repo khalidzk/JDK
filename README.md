@@ -19,7 +19,7 @@ JDK1.8.0_171
 ### 1、java.lang
 
 1) [Object](src/main/java/cn/com/kieran/java/lang/Object/Object.md) 1
-2) String 1
+2) [String](src/main/java/cn/com/kieran/java/lang/String/Object.md) 1
 3) AbstractStringBuilder 1
 4) StringBuffer 1
 5) StringBuilder 1
