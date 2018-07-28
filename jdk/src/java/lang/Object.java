@@ -36,7 +36,17 @@ package java.lang;
  */
 public class Object {
 
+    /**
+     * registerNatives含义是本地注册的意思。
+     * 分析：该类有static，为静态方法，同时有native修饰。native表示该方法的实现java本身并没有完成，
+     * 而是有c/c++来完成，形成.dll文件。但是我们注意到，这里的{}里并没有具体的方法体，
+     * 而且这里是由private修饰，那么应该如何执行呢？其实后面还一个静态代码块。
+     */
     private static native void registerNatives();
+
+    /**
+     * 静态代码块就是一个类在初始化过程中必定会执行的内容，所以在这里执行。
+     */
     static {
         registerNatives();
     }
@@ -59,6 +69,9 @@ public class Object {
      * @return The {@code Class} object that represents the runtime
      *         class of this object.
      * @jls 15.8.2 Class Literals
+     */
+    /**
+     * getClass就是获得类的意思，由注释可以知道，这个方法主要是获得该类的完整名称。
      */
     public final native Class<?> getClass();
 
