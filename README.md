@@ -3,7 +3,7 @@ JDK source learning notes
 
 ## 版本说明
 JDK1.8.0_171
-[源码](https://github.com/rambler-kieran/tree/master/jdk)
+[源码](jdk/src)
 
 ## 源码导入
 以Mac电脑为例，源码所在位置为Library/java/javavirtualmachines/jdkxxx.jdk/Contents/Home/src.zip。
