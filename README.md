@@ -5,6 +5,13 @@ JDK source learning notes
 JDK1.8.0_171
 [源码](https://github.com/rambler-kieran/tree/master/jdk)
 
+## 源码导入
+以Mac电脑为例，源码所在位置为Library/java/javavirtualmachines/jdkxxx.jdk/Contents/Home/src.zip。
+1. 将src.zip移到自定义文件夹中解压。
+2. 依次点击Intellij IDEA中的File -> Project Structure -> SDKs
+3. 选择JDK1.8.0_171，若没有请先导入JDK
+4. ![GitHub](https://github.com/rambler-kieran/JDK/tree/master/images/C55A6D1D-6B0C-489D-81D3-23F920A52B38.png)
+
 ## 源码阅读范围
 以下为整理的通常所需阅读的源码范围。 
 标题为包名，后面序号为优先级1-4，优先级递减。
